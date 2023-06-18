@@ -1,0 +1,117 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgba(255, 246, 246, 0.8);
+    font-size: 1cm;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    color: rgb(88, 88, 88);
+    display: none;
+    top: 0;
+    left: 0;
+}
+
+#restart{
+    color: rgb(167, 167, 167);
+    font-size: 0.5cm;
+    border:none;
+    cursor: pointer;
+    background-color: #0f0024;
+    border-radius: 5px;
+    padding: 0.3cm 0.5cm;
+    margin-top: 1cm;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+body{
+    background: #F5EE9E;
+}
+.row{
+    width: 330px;
+    height: 110px;
+    display: flex;
+    padding: 3px;
+    justify-items: center;
+    justify-content: center;
+}
+.col{
+    background: white;
+    color: rgb(56, 56, 56);
+    height: 100px;
+    width: 110px;
+    border-radius: 25px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2cm;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 1000;
+
+}
+.board{
+    margin-top: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    background-color: #01FDF6;
+}
+
+
+.col:hover{
+    cursor:pointer;
+    background-color: rgb(85, 126, 102);
+    color: rgb(255, 255, 255);
+    box-shadow: 15px 15px 15px 1px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+
+}
+.col1{
+    float: inline-start;
+}
+.col3{
+    float:inline-end;
+}
+
+
+.full:hover{
+    background-color: rgb(126, 98, 85);
+    cursor: default;
+}
+
+.zero{
+    background: #19777e;
+    color: #b4b4b4;
+    padding-bottom: px;
+}
+.zero:hover{
+    background: #145c61;
+    color: #b4b4b4;
+    cursor: no-drop;
+}
+
+.un{
+    background: #8b195c;
+    color: #afafaf;
+}
+.un:hover{
+    background: #802459;
+    color: #afafaf;
+    cursor: no-drop;
+}
